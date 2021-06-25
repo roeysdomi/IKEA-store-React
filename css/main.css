@@ -1,0 +1,112 @@
+@media screen and (min-width: 600px) {
+
+.main
+{
+   /* border:2px solid green; */
+   height:90vh;
+   width:100vw;
+   display: flex;
+   position: relative;
+     flex-direction: row-reverse;
+   background-color:  #f0ede8;
+   /* box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.11) inset;
+   -webkit-box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.11) inset;
+   -moz-box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.11) inset; */
+   background-color:  #f3f2f0;
+
+}
+/* -------------------products------------------- */
+.con-products
+{
+  /* border:2px solid blue; */
+  width: 85%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+.products
+{
+  /* border:2px solid purple; */
+  height: 100%;
+  width:99%;
+  /* min-width: 470px;
+  min-height: 470px; */
+ display: flex;
+ justify-content: center;
+  align-items: center;
+ flex-direction: row;
+flex-wrap: wrap;
+ overflow-y: scroll;
+ flex-shrink: 0;
+ gap:20px;
+
+}
+.products::-webkit-scrollbar {
+    display: none;
+}
+a
+{
+  text-decoration: none;
+  color:inherit;
+}
+}
+/* --------------mobileversion------------------------ */
+@media screen and (max-width: 600px) {
+
+.main
+{
+   /* border:2px solid green; */
+   height:90vh;
+   width:100vw;
+   display: flex;
+   position: relative;
+     flex-direction:column;
+   background-color:  #f0ede8;
+   /* box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.11) inset;
+   -webkit-box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.11) inset;
+   -moz-box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.11) inset; */
+   background-color:  #f3f2f0;
+
+}
+/* -------------------products------------------- */
+.con-products
+{
+  /* border:2px solid blue; */
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  margin: auto;
+}
+.products
+{
+  /* border:2px solid purple; */
+  height: 100%;
+  width:99%;
+  /* min-width: 470px;
+  min-height: 470px; */
+ display: flex;
+ justify-content: center;
+  align-items: center;
+ flex-direction: row;
+flex-wrap: wrap;
+ overflow-y: scroll;
+ flex-shrink: 0;
+ gap:20px;
+
+}
+.products::-webkit-scrollbar {
+    display: none;
+}
+a
+{
+  text-decoration: none;
+  color:inherit;
+}
+}
